@@ -81,7 +81,7 @@ def parallel_swamp_sort(arr: list[int], num_threads: int = 100, debug: bool = Fa
 
 
 def main():
-    N = 11
+    N = 50
     arr: list[int] = [random.randrange(0, 100) for _ in range(N)]
 
     print("Исходный массив:", arr)
