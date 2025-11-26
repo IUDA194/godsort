@@ -6,7 +6,7 @@ ENV PYTHONPATH=/app
 WORKDIR /app
 COPY . .
 
-CMD ["python3 godsort.py"]
+CMD ["python3", "godsort.py"]
 
 
 
